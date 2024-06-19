@@ -2,10 +2,14 @@
 In this project, we analyze a comprehensive dataset of cars to build a predictive model for car prices. Linear regression is the foundational technique used, and we further enhance the model's performance by implementing various regularization methods.
 
 # Models Implemented
-# 1. Simple Linear Regression: The foundational model that establishes a baseline for predicting car prices.
-# 2. LASSO Regression: This technique adds a penalty equal to the absolute value of the magnitude of coefficients, encouraging simpler models and feature selection.
-# 3. Ridge Regression: This method adds a penalty equal to the square of the magnitude of coefficients, which helps in managing multicollinearity and improving model robustness.
-# 4. Elastic Net Regression: Combines both LASSO and Ridge penalties to balance between the two.
+# 1. Simple Linear Regression: 
+The foundational model that establishes a baseline for predicting car prices.
+# 2. LASSO Regression: 
+This technique adds a penalty equal to the absolute value of the magnitude of coefficients, encouraging simpler models and feature selection.
+# 3. Ridge Regression: 
+This method adds a penalty equal to the square of the magnitude of coefficients, which helps in managing multicollinearity and improving model robustness.
+# 4. Elastic Net Regression: 
+Combines both LASSO and Ridge penalties to balance between the two.
 
 # Performance Evaluation
 The performance of each model is evaluated using metrics such as Mean Squared Error (MSE) and R-squared (R²). The results are compared to highlight the improvements brought by regularization techniques.
